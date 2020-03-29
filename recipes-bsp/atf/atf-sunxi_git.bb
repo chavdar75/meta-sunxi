@@ -2,7 +2,7 @@ DESCRIPTION = "ARM Trusted Firmware Allwinner"
 LICENSE = "BSD-3-Clause"
 LIC_FILES_CHKSUM = "file://license.rst;md5=1dd070c98a281d18d9eefd938729b031"
 
-SRC_URI = "git://license.rst;md5=1dd070c98a281d18d9eefd938729b031"
+SRC_URI = "git://github.com/ARM-software/arm-trusted-firmware;branch=master"
 SRCREV = "21e22c74cd072c878a31e41fd96a4cd1c1048cfc"
 
 S = "${WORKDIR}/git"
