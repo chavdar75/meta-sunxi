@@ -1,16 +1,16 @@
 DESCRIPTION = "ARM Trusted Firmware Allwinner"
-LICENSE = "BSD"
-LIC_FILES_CHKSUM = "file://license.md;md5=829bdeb34c1d9044f393d5a16c068371"
+LICENSE = "BSD-3-Clause"
+LIC_FILES_CHKSUM = "file://license.rst;md5=1dd070c98a281d18d9eefd938729b031"
 
-SRC_URI = "git://github.com/apritzel/arm-trusted-firmware;nobranch=1"
-SRCREV = "aa75c8da415158a94b82a430b2b40000778e851f"
+SRC_URI = "git://license.rst;md5=1dd070c98a281d18d9eefd938729b031"
+SRCREV = "21e22c74cd072c878a31e41fd96a4cd1c1048cfc"
 
 S = "${WORKDIR}/git"
 B = "${WORKDIR}/build"
 
 COMPATIBLE_MACHINE = "(sun50i)"
 
-PLATFORM_sun50i = "sun50iw1p1"
+PLATFORM_sun50i = "sun50i_a64"
 
 LDFLAGS[unexport] = "1"
 
