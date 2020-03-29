@@ -1,0 +1,11 @@
+diff --git a/arch/arm/Kconfig b/arch/arm/Kconfig
+index 0ed36cded..822ebb812 100644
+--- a/arch/arm/Kconfig
++++ b/arch/arm/Kconfig
+@@ -863,4 +863,6 @@ config ARCH_SUNXI
+ 	select OF_BOARD_SETUP
+ 	select OF_CONTROL
++	select OF_LIBFDT
++	select OF_LIBFDT_OVERLAY
+ 	select OF_SEPARATE
+ 	select SPECIFY_CONSOLE_INDEX
